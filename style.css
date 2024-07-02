@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #0A192F;
+}
+a{
+    color: #8892B0 !important;
+}
+.bg-body-tertiary{
+    background-color: #0A192F !important;
+    color: #64ffda !important;
+    padding: 12px 0 !important;
+    border-bottom: 0.5px solid #8892B0;
+}
+.navbar-brand, .nav-link{
+    color: #64ffda !important;
+}
+.heroSection{
+    height: 100vh;
+    width: 100%;
+    padding: 100px;
+    background-color: #0A192F;
+    color: #CCD6F6;
+}
+
+.heroSection p{
+    color: #64ffda;
+    letter-spacing: 5px;
+}
+
+.heroSection h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+.h2Two{
+    color: #8892b0;
+}
+.smallText{
+    width: 50%;
+    color: #8892b0;
+    letter-spacing: 0 !important;
+}
+
+/* projects section  */
+.projectSection{
+    height: auto;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.projectSection h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: #CCD6F6;
+    margin-bottom: 30px;
+}
+
+.projectBox{
+    height: auto;
+    width: 100%;
+    background-color: #112240;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+    transition: 500ms ease;
+}
+
+
+.projectBox img{
+    border-radius: 5px;
+}
+
+.liveLink{
+    height: auto;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    background-color: #8892B0;
+    color: #0A192F;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.projectBox h5{
+    color: #CCD6F6;
+    padding: 10px;
+}
+
+/* form section  */
+.contactSection{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.formSec{
+    background-color: #8892B0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.sendBtn{
+    height: auto;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    background-color: #112240;
+    color: #fff;
+}
+
+.contactSection h2{
+    text-align: center;
+    font-size: 35px;
+    color: #CCD6F6;
+    margin-bottom: 30px;
+}
+.contactSection input, .contactSection textarea{
+    background-color: transparent;
+}
+
+.copyright{
+    padding: 15px 0;
+    text-align: center;
+    color: #CCD6F6;
+    background-color: #112240;
+}
