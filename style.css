@@ -130,3 +130,19 @@ a{
     color: #CCD6F6;
     background-color: #112240;
 }
+
+
+/* responsive css here */
+
+@media screen and (max-width : 767px) {
+    .heroSection{
+        padding : 10px;
+    }
+    .smallText {
+        width: 100%;
+    }
+    .heroSection h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
