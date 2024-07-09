@@ -135,6 +135,12 @@ a{
 /* responsive css here */
 
 @media screen and (max-width : 767px) {
+    .heroSection {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
     .heroSection{
         padding : 10px;
     }
