@@ -1,12 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: zingRustBase;
+    src: url(./font/ZingRustDemo-Base.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+ /*@font-face {*/
+ /*   font-family: intro;*/
+ /*   src: url(./font/Intro\ Black\ Alt.otf);*/
+ /*}*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
     background-color: #0A192F;
+    /*font-family: intro;*/
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5{
+    font-family: zingRustBase;
 }
 a{
     color: #8892B0 !important;
@@ -28,9 +46,9 @@ a{
 
 /* hero section here  */
 .heroSection{
-    height: 100vh;
+    height: auto;
     width: 100%;
-    padding: 100px;
+    padding: 100px 0 50px 0;
     background-color: #0A192F;
     color: #CCD6F6;
 }
@@ -48,7 +66,7 @@ a{
     color: #8892b0;
 }
 .smallText{
-    width: 50%;
+    width: 70%;
     color: #8892b0;
     letter-spacing: 0 !important;
 }
@@ -89,12 +107,20 @@ a{
     background-color: #112240;
     border-radius: 5px;
     padding: 10px;
+    margin-top: 20px;
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
     transition: 500ms ease;
 }
 
 .projectBox:hover{
     transform: translateY(-10px);
+}
+
+.projectBox p{
+    font-size: 15px;
+    color: #8892B0;
+    height: 150px;
+    padding-left: 10px;
 }
 
 
@@ -148,11 +174,11 @@ a{
     text-align: center;
     margin-bottom: 40px;
 }
-.tittleReview::before{
-            content: "";
-            flex: 1;
-            border-bottom: 1px solid black;
-}
+/*.tittleReview::before{*/
+/*            content: "";*/
+/*            flex: 1;*/
+/*            border-bottom: 1px solid black;*/
+/*}*/
 
 .clientReview .reviewerName{
     margin-top: 15px;
@@ -187,9 +213,10 @@ a{
 }
 
 .formSec{
-    background-color: #8892B0;
+    background-color: #64FFDA;
     padding: 40px 30px;
-    border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .sendBtn{
     height: auto;
@@ -199,17 +226,30 @@ a{
     border: none;
     background-color: #112240;
     color: #fff;
+    border-radius: 2px;
 }
 
 .contactSection h2{
     text-align: center;
     font-size: 35px;
-    color: #CCD6F6;
+    color: #112240;
     margin-bottom: 30px;
 }
 .contactSection input, .contactSection textarea{
     background-color: transparent;
+    box-shadow: none !important;
+    border-color: #112240;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-weight: bold;
 }
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent !important;
+    border-color: #112240;
+    outline: 0;
+}
+
 
 .copyright{
     padding: 15px 0;
